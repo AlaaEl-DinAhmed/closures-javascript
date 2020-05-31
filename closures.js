@@ -9,7 +9,7 @@ a function is created, at function creation time.
 */
 
 /*
-Closure from my understanding 
+Closure from my point of view 
 
 However outer function is executed and inner function is defined within
 that scope, inner function is able to hold on to the reference of

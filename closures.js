@@ -9,7 +9,7 @@ a function is created, at function creation time.
 */
 
 /*
-Closure from my understanding as 
+Closure from my understanding 
 
 However outer function is executed and inner function is defined within
 that scope, inner function is able to hold on to the reference of
@@ -19,9 +19,9 @@ inner function have a linkage to the outer scope or whatever
 a variable is defined in it.
 */
 
-function outer (x) {
+function outer(x) {
     function inner() {
-       console.log(x)
+        console.log(x)
     }
     inner()
 }

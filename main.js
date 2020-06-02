@@ -2,4 +2,4 @@ import PersonModule from './closure-and-modules.js';
 
 const person = PersonModule()
 
-const fullName = person.getFullName('Alaa', 'Ahmed');
+const fullName = person.getFullName('Alaa', 'Ahmed') // My name is Alaa Ahmed.
